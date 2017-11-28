@@ -1,0 +1,241 @@
+#!/bin/bash
+echo 'compiling...'
+make
+#run exec
+echo 'running...'
+
+echo"results:">results.txt
+
+
+
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 720 Bloques 3 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 720 Bloques 3 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  720  3)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 432 Bloques 5 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 432 Bloques 5 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  432  5)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 216 Bloques 10 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 216 Bloques 10 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  216  10)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 144 Bloques 15 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 144 Bloques 15 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  144  15)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 108 Bloques 20 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 108 Bloques 20 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  108  20)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 86 Bloques 25 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 86 Bloques 25 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  86  25)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 72 Bloques 30 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 72 Bloques 30 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  72  30)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 54 Bloques 40 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 54 Bloques 40 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  54  40)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 43 Bloques 50 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 43 Bloques 50 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  43  50)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 36 Bloques 60 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 36 Bloques 60 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  36  60)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 30 Bloques 70 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 30 Bloques 70 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  30  70)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 27 Bloques 80 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 27 Bloques 80 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  27  80)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 24 Bloques 90 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 24 Bloques 90 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  24  90)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 21 Bloques 100 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 21 Bloques 100 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  21  100)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 18 Bloques 120 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 18 Bloques 120 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  18  120)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 15 Bloques 140 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 15 Bloques 140 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  15  140)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 13 Bloques 160 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 13 Bloques 160 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  13  160)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 12 Bloques 180 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 12 Bloques 180 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  12  180)>>results.txt 2>&1
+ echo"">>results.txtecho"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 10 Bloques 200 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 10 Bloques 200 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  10  200)>>results.txt 2>&1
+ echo"">>results.txtecho"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 9 Bloques 220 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 9 Bloques 220 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  9  220)>>results.txt 2>&1
+ echo"">>results.txtecho"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 9 Bloques 240 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 9 Bloques 240 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  9  240)>>results.txt 2>&1
+ echo"">>results.txtecho"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 8 Bloques 260 on file 4k.jpg">>results.txt
+echo"time ./blur-effect 4k.jpg kernel= 40 Hilos por bloque 8 Bloques 260 on file 4k.jpg"
+(time ./blur-effect 4k.jpg  40  8  260)>>results.txt 2>&1
+ echo"">>results.txtecho"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 27 Bloques 40 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 27 Bloques 40 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  27  40)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 21 Bloques 50 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 21 Bloques 50 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  21  50)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 18 Bloques 60 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 18 Bloques 60 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  18  60)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 15 Bloques 70 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 15 Bloques 70 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  15  70)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 13 Bloques 80 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 13 Bloques 80 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  13  80)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 12 Bloques 90 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 12 Bloques 90 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  12  90)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 10 Bloques 100 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 10 Bloques 100 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  10  100)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 9 Bloques 120 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 9 Bloques 120 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  9  120)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 7 Bloques 140 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 7 Bloques 140 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  7  140)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 6 Bloques 160 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 6 Bloques 160 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  6  160)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 6 Bloques 180 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 6 Bloques 180 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  6  180)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 5 Bloques 200 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 5 Bloques 200 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  5  200)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 220 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 220 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  4  220)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 240 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 240 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  4  240)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 260 on file 1080.jpg">>results.txt
+echo"time ./blur-effect 1080.jpg kernel= 40 Hilos por bloque 4 Bloques 260 on file 1080.jpg"
+(time ./blur-effect 1080.jpg  40  4  260)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 720 Bloques 1 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 720 Bloques 1 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  720  1)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 144 Bloques 5 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 144 Bloques 5 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  144  5)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 72 Bloques 10 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 72 Bloques 10 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  72  10)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 48 Bloques 15 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 48 Bloques 15 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  48  15)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 36 Bloques 20 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 36 Bloques 20 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  36  20)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 28 Bloques 25 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 28 Bloques 25 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  28  25)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 24 Bloques 30 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 24 Bloques 30 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  24  30)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 18 Bloques 40 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 18 Bloques 40 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  18  40)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 14 Bloques 50 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 14 Bloques 50 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  14  50)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 12 Bloques 60 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 12 Bloques 60 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  12  60)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 10 Bloques 70 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 10 Bloques 70 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  10  70)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 9 Bloques 80 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 9 Bloques 80 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  9  80)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 8 Bloques 90 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 8 Bloques 90 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  8  90)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 7 Bloques 100 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 7 Bloques 100 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  7  100)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 6 Bloques 120 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 6 Bloques 120 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  6  120)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 5 Bloques 140 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 5 Bloques 140 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  5  140)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 4 Bloques 160 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 4 Bloques 160 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  4  160)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 4 Bloques 180 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 4 Bloques 180 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  4  180)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 200 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 200 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  3  200)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 220 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 220 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  3  220)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 240 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 3 Bloques 240 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  3  240)>>results.txt 2>&1
+ echo"">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 2 Bloques 260 on file 720.jpg">>results.txt
+echo"time ./blur-effect 720.jpg kernel= 40 Hilos por bloque 2 Bloques 260 on file 720.jpg"
+(time ./blur-effect 720.jpg  40  2  260)>>results.txt 2>&1
+ echo"">>results.txt
